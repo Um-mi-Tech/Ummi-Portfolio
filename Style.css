@@ -25,7 +25,6 @@ header h1{
   color: #000;
   font-size: 30px;
   font-weight: 500;
-
   font-family: "Dancing Script", serif;
   
 }
@@ -56,8 +55,7 @@ article{
   padding-bottom: 20px;
 }
 
-.Ummi_pics{
-}
+
 .ummPic{
   background-repeat: no-repeat;
   background-size: cover; 
@@ -101,3 +99,38 @@ article{
   color: #eee;
   background-color: #000;
 }
+
+@media screen and (max-width: 800px)
+{
+  .container{
+    width: 100%;
+    max-width: fit-content;
+
+  }
+    header{
+      display: flex;
+      gap: 20px ;
+    
+    }
+
+    .ummPic{
+      width: 200px;
+      height: 200px; 
+      padding: 20px;
+
+    }
+    
+    .ummPic_1{
+      display: none;
+    }
+
+    .email{
+      border-radius: 40px;
+      padding: 12px;
+      width: 150px;
+      top: 412px;
+      left: 465px;
+     
+    }
+
+  }
